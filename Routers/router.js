@@ -1,5 +1,5 @@
 import express from "express";
-import { forgotPassword, loginUser, registerUser, resetPassword,} from "../controllers/acontroller.js";
+import { forgotPassword, loginUser, registerUser, resetPassword,} from "../controllers/control.js";
 
 
 
