@@ -77,7 +77,7 @@ export const forgotPassword = async (req, res) => {
       subject: "Password Reset Link",
       text: `You are receiving this because you have requested the reset of the password for your account 
       Please click the following link or paste it into your browser to complete the process
-      https://AuthAppFE.netlify.app/reset-password/${user._id}/${token}/${randomString}`,
+      https://authappfe.netlify.app/reset-password/${user._id}/${token}/${randomString}`,
     };
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
